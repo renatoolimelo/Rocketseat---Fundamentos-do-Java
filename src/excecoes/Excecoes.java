@@ -22,7 +22,7 @@ public class Excecoes {
 	
 	public static void validarNumero(int numero) throws Exception {	
 		if (numero < 100) {
-			throw new Exception("O núemro é menor do que 100.");
+			throw new Exception("O número é menor do que 100.");
 		}
 	}
 
